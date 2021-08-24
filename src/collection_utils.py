@@ -3,6 +3,7 @@ def dict_min_key_value(dictionary: dict):
     Given a dict, returns the key which has the minimum value, along with the value.
     It assumes the values are comparable objects eg integers, strings, objects that implement __cmp__
     :param dictionary: A dictionary to be searched upon
+    
     :return: A pair of min key and the corresponding value
     """
     min_key = min(dictionary, key=dictionary.get)
